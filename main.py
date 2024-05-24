@@ -1,5 +1,6 @@
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+#add a function to calcuate the caesar ciper
 def caesar(start_text, shift_amount, cipher_direction):
   end_text = ""
   if cipher_direction == "decode":
@@ -13,6 +14,7 @@ def caesar(start_text, shift_amount, cipher_direction):
       end_text += char
   print(f"Here's the {cipher_direction}d result: {end_text}")
 
+#import from art.py the logo
 from art import logo
 print(logo)
 
